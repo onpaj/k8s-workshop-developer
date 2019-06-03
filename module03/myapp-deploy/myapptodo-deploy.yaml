@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myappspa
-        image: YOURACRNAME.azurecr.io/myapptodo:v1   # Best practice - always define specific tag, do not rely on latest
+        image: opajgrtacrworkshop.azurecr.io/myapptodo:v1   # Best practice - always define specific tag, do not rely on latest
         imagePullPolicy: Always    # Best practice for security - user will no access to image might get it from local cache
         ports:  # We cannot run on ports <1024 because that would require root
         - containerPort: 8080
