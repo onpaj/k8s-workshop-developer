@@ -1,0 +1,4 @@
+export RESOURCE_GROUP=RGRND
+export LOCATION="westeurope"
+export ACR_NAME=opajgrtacrworkshop
+export AKS_CLUSTER_NAME=opajgrtaksworkshop
